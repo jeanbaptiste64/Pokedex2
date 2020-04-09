@@ -1,0 +1,39 @@
+
+.App-logo {
+  height: 40px;
+  pointer-events: none;
+  animation: rotateAnim 10s linear infinite;
+}
+
+@keyframes rotateAnim {
+  from {transform: rotateY(0);}
+  to {transform: rotateY(360deg);}
+}
+
+
+.App-header {
+  background-image: url(fond_header.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: rgb(255, 245, 251);
+  font-size: 40px;
+  text-shadow: 0 1px 0 rgb(3, 5, 114),
+             0 2px 0 #000000,
+             -1px 3px 0 rgb(27, 12, 231),
+             -1px 4px 0 rgb(27, 12, 231),
+             -2px 5px 0 rgb(27, 12, 231),
+             -2px 6px 0 rgb(27, 12, 231),
+             -2px 7px 2px rgba(247, 202, 4, 0.884),
+             -2px 7px 8px rgba(238, 196, 7, 0.904),
+             -2px 7px 45px rgba(245, 201, 6, 0.877);
+ 
+  text-align: center;
+}
+
+.Nav {
+  margin-top: -10px;
+  margin-left: 1000px;
+}
+
+
+
